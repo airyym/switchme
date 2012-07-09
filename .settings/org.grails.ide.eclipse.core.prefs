@@ -1,0 +1,5 @@
+#
+#Thu Jul 05 01:44:37 PDT 2012
+org.grails.ide.eclipse.core.use.default.install=false
+org.grails.ide.eclipse.core.org.grails.ide.eclipse.core.install.name=Grails 2.0.4
+eclipse.preferences.version=1

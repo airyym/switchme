@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="nbp-f787b927724" id="0" name="SMHomeControllerTests" package="switchme" tests="1" time="3.187" timestamp="2012-06-28T06:37:54">
+      <properties />
+
+      <testcase classname="switchme.SMHomeControllerTests" name="testSomething" time="2.797">
+          <error message="No signature of method: switchme.SMProcess.save() is applicable for argument types: () values: []&#xa;Possible solutions: save(), save(boolean), save(java.util.Map), wait(), any(), wait(long)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: switchme.SMProcess.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), any(), wait(long)
+	at switchme.SMHomeControllerTests.testSomething(SMHomeControllerTests.groovy:15)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="1" name="SMPriorityTests" package="switchme" tests="1" time="0.922" timestamp="2012-06-28T06:37:57">
+      <properties />
+
+      <testcase classname="switchme.SMPriorityTests" name="testSomething" time="0.672">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMPriorityTests.testSomething(SMPriorityTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="2" name="SMProcessControllerTests" package="switchme" tests="1" time="0.813" timestamp="2012-06-28T06:37:58">
+      <properties />
+
+      <testcase classname="switchme.SMProcessControllerTests" name="testSomething" time="0.657">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMProcessControllerTests.testSomething(SMProcessControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="3" name="SMProcessTests" package="switchme" tests="1" time="0.594" timestamp="2012-06-28T06:37:59">
+      <properties />
+
+      <testcase classname="switchme.SMProcessTests" name="testSomething" time="0.344">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMProcessTests.testSomething(SMProcessTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="4" name="SMThreadControllerTests" package="switchme" tests="1" time="0.562" timestamp="2012-06-28T06:37:59">
+      <properties />
+
+      <testcase classname="switchme.SMThreadControllerTests" name="testSomething" time="0.359">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMThreadControllerTests.testSomething(SMThreadControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="5" name="SMThreadTests" package="switchme" tests="1" time="0.438" timestamp="2012-06-28T06:38:00">
+      <properties />
+
+      <testcase classname="switchme.SMThreadTests" name="testSomething" time="0.188">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMThreadTests.testSomething(SMThreadTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="6" name="SMUserControllerTests" package="switchme" tests="1" time="0.656" timestamp="2012-06-28T06:38:00">
+      <properties />
+
+      <testcase classname="switchme.SMUserControllerTests" name="testSomething" time="0.515">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMUserControllerTests.testSomething(SMUserControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="nbp-f787b927724" id="7" name="SMUserTests" package="switchme" tests="1" time="0.078" timestamp="2012-06-28T06:38:01">
+      <properties />
+
+      <testcase classname="switchme.SMUserTests" name="testSomething" time="0.078">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at switchme.SMUserTests.testSomething(SMUserTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
