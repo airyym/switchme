@@ -40,8 +40,7 @@
 					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
 					class="icon-bar"></span> <span class="icon-bar"></span>
 
-				</a> <a class="brand" href="#"><img src="/images/w3r.png"
-					width="111" height="30" alt="w3resource logo" /></a>
+				</a> 
 
 				<div class="nav-collapse">
 
@@ -57,8 +56,9 @@
 
 						<g:elseif test="${session.user == null}">
 							<li><g:link controller="SMUser" action="login">로그인</g:link></li>
-
 							<li><g:link controller="SMUser" action="signup">가입하기</g:link></li>
+							
+							
 							
 						</g:elseif>
 						
@@ -77,13 +77,17 @@
 	</div>
 
 	<g:layoutBody />
+	<br/><br/>
 	<div class="footer" role="contentinfo">
-		<h2>SwitchMe!는 현재 0.1 베타 상태로 사용자 정보의 어떠한 것도 책임지지 않습니다. 주의해서 사용해 주세요.</h2>
+		<div class="container">
+		<h2>SwitchMe!는 현재 0.1 베타 상태로 사용자 정보의 어떠한 것도 책임지지 않습니다. <br>주의해서 사용해 주세요.</h2>
 		<br/>문의 사항이나 건의 사항은 <a href="mailto:airyym@naver.com">이 곳</a>으로 메일 주시기 바랍니다. 
+		<br/>
+		Switchme! 소스코드: <a href="https://github.com/airyym/switchme.git">https://github.com/airyym/switchme.git</a>
 		
-		
-		
+		</div>	
 	</div>
+	
 	<div id="spinner" class="spinner" style="display: none;">
 		<g:message code="spinner.alt" default="Loading&hellip;" />
 	</div>
